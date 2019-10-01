@@ -1,5 +1,5 @@
 {
-  "name": "socket-chat-example",
+  "name": "socket-chat-app",
   "version": "0.0.1",
   "description": "my first socket.io app",
   "dependencies": {
@@ -8,5 +8,20 @@
   },
   "scripts": {
     "start": "node index.js"
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marviePN/heroku-marvie-chat-app.git"
+  },
+  "author": "Marvie Cauyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marviePN/heroku-marvie-chat-app/issues"
+  },
+  "homepage": "https://github.com/marviePN/heroku-marvie-chat-app#readme",
+  "engines": {
+    "node": "v10.15.3"
   }
 }

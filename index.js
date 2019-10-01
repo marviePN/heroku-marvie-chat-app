@@ -3,7 +3,7 @@ var express = require('express');
 var app = express();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
-var port = process.env.PORT || 3009;
+var port = process.env.PORT || 3000;
 var path = require('path');
 var clients = [];
 var add = 1;
@@ -74,6 +74,6 @@ io.on('connection', function(socket){
 });
 
 
-  http.listen(port, function(){
+  http.listen(port, '0.0.0.0', function(){
     console.log('listening on *:' + port);
 });
