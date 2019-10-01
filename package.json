@@ -1,6 +1,6 @@
 {
   "name": "heroku-marvie-chat-app",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Socket.io_Chat_App",
   "main": "index.js",
   "dependencies": {
