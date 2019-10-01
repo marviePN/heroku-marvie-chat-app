@@ -62,5 +62,7 @@ typings/
 
 
 #heroku
-   .DS_Store
-   *.env/
+node_modules/
+    npm-debug.log
+    .DS_Store
+    *.env/
